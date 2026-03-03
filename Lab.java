@@ -6,14 +6,14 @@ public class Lab {
 
     private static final String URL = "jdbc:mysql://localhost:3306/lab_management";
     private static final String USER = "root";
-    private static final String PASSWORD = "your_password";
+    private static final String PASSWORD = "";
 
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
         while (true) {
-            System.out.println("\n===== LAB MANAGEMENT SYSTEM =====");
+            System.out.println("\n=====LAB MANAGEMENT SYSTEM =====");
             System.out.println("1. Add Lab Item");
             System.out.println("2. View All Items");
             System.out.println("3. Update Stock");
